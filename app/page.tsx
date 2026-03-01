@@ -218,7 +218,7 @@ export default function Home() {
         </div>
 
         <p className="text-[#444] text-sm">
-          Questions? Email danbwkim@gmail.com
+          Questions? Contact <span className="text-[#666]">Dan Kim</span> at danbwkim@gmail.com
         </p>
       </section>
 
