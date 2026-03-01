@@ -126,10 +126,10 @@ export default function Home() {
         <h2 className="text-3xl font-bold mb-10">What&apos;s Included</h2>
         <div className="grid sm:grid-cols-2 gap-4">
           {[
-            { icon: "▶", title: "7 Focused Video Lessons", desc: "Under 20 min each. No padding, no filler." },
-            { icon: "📄", title: "Daily Cheat Sheets", desc: "Review the night before. Everything on one page." },
-            { icon: "✅", title: "Practice Questions", desc: "Phrased the way interviewers actually ask them." },
-            { icon: "🌙", title: "Night-Before Review Guide", desc: "What to skim the evening before your interview." },
+            { icon: "📖", title: "7 Day-by-Day Lessons", desc: "Focused written lessons covering exactly what interviewers test." },
+            { icon: "📄", title: "Daily Cheat Sheets", desc: "One-page summaries for every day. Review the night before." },
+            { icon: "✅", title: "Practice Questions", desc: "Phrased the way interviewers actually ask them — with answers." },
+            { icon: "🌙", title: "Night-Before Checklist", desc: "Exactly what to review the evening before your interview." },
           ].map((item, i) => (
             <div key={i} className="bg-[#111] border border-[#1f1f1f] rounded-xl p-5">
               <div className="text-2xl mb-3">{item.icon}</div>
