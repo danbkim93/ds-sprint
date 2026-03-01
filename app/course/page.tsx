@@ -517,12 +517,12 @@ const days = [
       {
         type: "section",
         title: "4. Telling Your Story (Non-Traditional Background)",
-        body: `BAD:  "I'm still transitioning into data science."\n\nGOOD: "I've spent the last several years building a strong foundation — math at UW, analytics at Georgia Tech, and hands-on ML work at LG Uplus and Coupang. I'm now focused on going deeper into ML engineering."\n\n**Your story arc:**\n1. Strong math foundation (UW)\n2. Applied it to analytics (Georgia Tech + industry)\n3. Built real ML systems (LG Uplus, Coupang)\n4. Now deepening expertise in data science\n\n💡 Own your journey. Every step was intentional. Non-linear paths show adaptability.`,
+        body: `BAD:  "I'm still transitioning into data science."\n\nGOOD: "I've spent the last several years building a strong foundation in [your background]. I've applied that to real data problems in [your industry], and I'm now focused on going deeper into machine learning and predictive modeling."\n\n**Build your story arc:**\n1. Where did you start? (education, first role)\n2. What did you learn and apply? (skills, tools, impact)\n3. What real problems did you solve? (projects with results)\n4. Where are you going? (why DS, why this role)\n\n💡 Own your journey. Every step was intentional. Non-linear paths show adaptability — that's a strength, not a weakness.`,
       },
       {
         type: "section",
-        title: "5. Your Strongest Projects to Reference",
-        body: `**World Cup prediction model (LG Uplus)**\n→ 1.15M visits, 500K users in 3 months\n\n**Image classification (Asurion)**\n→ Improved accuracy from 60% to 95% using EfficientNetB7\n\n**Anomaly detection (Coupang)**\n→ Monitoring KPIs across fulfillment centers\n\n**Climate/GIS analysis (YTN)**\n→ Won 2024 Data Journalism Innovation Award\n\nFor each project prepare:\n- What problem were you solving?\n- What was your specific contribution?\n- What was the result? (numbers)\n- What would you do differently?`,
+        title: "5. How to Talk About Your Projects",
+        body: `For every project on your resume, prepare answers to these 4 questions:\n\n**1. What problem were you solving?** (business context, not just technical)\n**2. What was your specific contribution?** (not the team's — yours)\n**3. What was the measurable result?** (numbers, percentages, scale)\n**4. What would you do differently?** (shows growth mindset)\n\nExample structure:\n"At [Company], we had a problem with [X]. I was responsible for [Y]. I built [Z] which resulted in [measurable outcome]. In hindsight, I would have [improvement]."\n\n💡 Quantify everything you can. Numbers make stories memorable.`,
       },
       {
         type: "section",
@@ -543,8 +543,8 @@ const days = [
           { label: "Why DS?", value: "Specific, connect past experience to future" },
           { label: "Project", value: "STAR + numbers + what you'd do differently" },
           { label: "Failure", value: "Self-aware, what you learned, no blame" },
-          { label: "Your arc", value: "Math (UW) → Analytics (GT) → ML systems → deeper DS" },
-          { label: "Key projects", value: "World Cup (1.15M visits), Image (60→95%), Anomaly, Award" },
+          { label: "Your arc", value: "Start → Skills applied → Problems solved → Why DS now" },
+          { label: "Projects", value: "Problem → Your contribution → Measurable result → Lesson" },
           { label: "Ask them", value: "90-day success, team challenges, growth path" },
           { label: "Night before", value: "STAR stories, job desc, cheat sheets, sleep" },
         ],
@@ -555,15 +555,15 @@ const days = [
         items: [
           {
             q: "Tell me about yourself.",
-            a: "I have a background in mathematics from UW and a Master's in Analytics from Georgia Tech. I've built ML systems in industry — predictive models at LG Uplus, data science at YTN where I won a national data journalism award, and anomaly detection at Coupang. I'm now focused on going deeper into machine learning — which is exactly what drew me to this role.",
+            a: "Structure: [Your background] → [What you've built/done] → [Why this role]. Keep it to 90 seconds. End with why you're excited about this specific position. Don't recite your resume — tell a story with a destination.",
           },
           {
             q: "Tell me about a project you're proud of.",
-            a: "At LG Uplus I built a model to predict World Cup match outcomes for a fan app. I owned the full ML pipeline — data collection, feature engineering, model selection, validation. The ensemble model achieved 60% accuracy and the app hit 1.15M visits and 500K users within 3 months.",
+            a: "Use STAR. Pick a project with a measurable outcome. Structure: what was the problem, what did YOU do, what was the result (numbers), what did you learn. The more specific the numbers, the more memorable the story.",
           },
           {
             q: "Why do you want to move from analyst to data scientist?",
-            a: "As an analyst I've gotten strong at finding insights in data. But I keep hitting the ceiling of what I can do without building predictive systems. I want to go from describing what happened to building models that predict what will happen — and I've been developing those skills through my ML work at LG Uplus and Coupang.",
+            a: "\"As an analyst I've gotten strong at finding insights in data. But I keep hitting the ceiling of what I can do without building predictive systems. I want to go from describing what happened to building models that predict what will happen — and I've been actively developing those ML skills to get here.\"",
           },
           {
             q: "Tell me about a time you failed.",
