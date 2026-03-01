@@ -91,6 +91,13 @@ const days = [
   { day: "Day 7", title: "Behavioral + Telling Your Story", topics: [], content: [] },
 ];
 
+type ContentBlock = {
+  type: string;
+  title?: string;
+  body?: string;
+  items?: { label?: string; value?: string; q?: string; a?: string }[];
+};
+
 function formatBody(text: string) {
   return text.split("\n").map((line, i) => {
     const bold = line.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
@@ -204,7 +211,7 @@ export default function CoursePage() {
             </div>
           ) : (
             <div className="space-y-8">
-              {currentDay.content.map((block, i) => {
+              {(currentDay.content as ContentBlock[]).map((block, i) => {
                 if (block.type === "section") {
                   return (
                     <div key={i} className="bg-[#111] border border-[#1f1f1f] rounded-xl p-6">
